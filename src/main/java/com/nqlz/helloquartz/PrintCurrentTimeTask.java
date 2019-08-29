@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.logging.SimpleFormatter;
 
-@Component
+//@Component
 public class PrintCurrentTimeTask {
 
     @Scheduled(cron = "0/5 * * * * ?")
